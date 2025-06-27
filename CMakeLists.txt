@@ -1,8 +1,10 @@
-cmake_minimum_required(VERSION 3.11)
-project(veno-script CXX)
+cmake_minimum_required(VERSION 3.20)
 
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY .build)
+project(veno-script)
 
 set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 add_executable(veno-script main.cpp)

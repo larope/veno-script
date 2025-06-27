@@ -1,6 +1,7 @@
-#include <cstdio>
+#include <iostream>
+using namespace std;
 
 int main(void){
-	printf("Qaqs ker cpp");
+	cout<<"Qaqs ker cpp"<<endl;
 	return 0;
 }

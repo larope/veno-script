@@ -1,23 +1,27 @@
-# Created by https://www.toptal.com/developers/gitignore/api/vim,windows,macos,linux,apachehadoop
-# Edit at https://www.toptal.com/developers/gitignore?templates=vim,windows,macos,linux,apachehadoop
+# Created by https://www.toptal.com/developers/gitignore/api/cmake,vim,windows,macos,linux
+# Edit at https://www.toptal.com/developers/gitignore?templates=cmake,vim,windows,macos,linux
 
-### ApacheHadoop ###
-*.iml
-*.ipr
-*.iws
-*.orig
-*.rej
-.idea
-.svn
-.classpath
-.project
-.settings
-target
-hadoop-common-project/hadoop-kms/downloads/
-hadoop-hdfs-project/hadoop-hdfs/downloads
-hadoop-hdfs-project/hadoop-hdfs-httpfs/downloads
-hadoop-common-project/hadoop-common/src/test/resources/contract-test-options.xml
-hadoop-tools/hadoop-openstack/src/test/resources/contract-test-options.xml
+### Custom ###
+.bin
+
+### CMake ###
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+### CMake Patch ###
+CMakeUserPresets.json
+
+# External projects
+*-prefix/
 
 ### Linux ###
 *~
@@ -113,4 +117,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/vim,windows,macos,linux,apachehadoop
+# End of https://www.toptal.com/developers/gitignore/api/cmake,vim,windows,macos,linux
